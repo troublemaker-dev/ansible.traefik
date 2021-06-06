@@ -44,3 +44,5 @@
     networks:
       - name: '{{ traefik_network_name }}'
     networks_cli_compatible: true
+    network_mode: default
+    container_default_behavior: compatibility
